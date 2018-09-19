@@ -342,19 +342,16 @@ export default {
   &-top {
     width: 50%;
     height: 33.3%;
-    background-color: #141d2c;
     margin-left: 50%;
   }
   &-mid {
     width: 60%;
     height: 33.3%;
-    background-color: #141d2c;
     margin-left: 40%;
   }
   &-bottom {
     width: 80%;
     height: 33.3%;
-    background-color: #141d2c;
     margin-left: 20%;
   }
 }
