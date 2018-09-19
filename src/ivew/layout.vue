@@ -8,7 +8,10 @@
       <div class="container-right">
         <layoutRight></layoutRight>
       </div>
-      <div class="container-flex"></div>
+      <div class="container-flex">
+        <maps></maps>
+        <!-- <M></M> -->
+      </div>
     </div>
   </div>
 </template>
@@ -16,10 +19,12 @@
 <script>
 import layoutLeft from "@/components/layoutLeft/layoutLeft";
 import layoutRight from "@/components/layoutRight/layoutRight";
+import maps from "@/components/map/map";
 export default {
   components: {
     layoutLeft,
-    layoutRight
+    layoutRight,
+    maps
   }
 };
 </script>
