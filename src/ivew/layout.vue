@@ -1,6 +1,8 @@
 <template>
   <div class="layout">
-    <div class="nav"></div>
+    <div class="nav">
+      <heads></heads>
+    </div>
     <div class="container">
       <div class="container-left">
         <layoutLeft></layoutLeft>
@@ -19,11 +21,13 @@
 import layoutLeft from "@/components/layoutLeft/layoutLeft";
 import layoutRight from "@/components/layoutRight/layoutRight";
 import maps from "@/components/map/map";
+import heads from "@/components/head/head";
 export default {
   components: {
     layoutLeft,
     layoutRight,
-    maps
+    maps,
+    heads
   }
 };
 </script>
@@ -35,7 +39,6 @@ export default {
 .nav {
   width: 100%;
   height: 40px;
-  background-color: pink;
 }
 .container {
   display: flex;
