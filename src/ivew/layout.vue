@@ -8,7 +8,8 @@
       <div class="container-right">
         <layoutRight></layoutRight>
       </div>
-      <div class="container-flex"></div>
+      <div class="container-flex">
+      </div>
     </div>
   </div>
 </template>
@@ -19,7 +20,7 @@ import layoutRight from "@/components/layoutRight/layoutRight";
 export default {
   components: {
     layoutLeft,
-    layoutRight
+    layoutRight,
   }
 };
 </script>
