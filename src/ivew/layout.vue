@@ -10,7 +10,6 @@
       </div>
       <div class="container-flex">
         <maps></maps>
-        <!-- <M></M> -->
       </div>
     </div>
   </div>
