@@ -5,6 +5,7 @@
 
 <script>
 import echarts from "echarts";
+import "@/assets/js/china.js";
 export default {
   data() {
     return {};
@@ -667,7 +668,6 @@ export default {
     },
     init() {
       var myChart = echarts.init(document.getElementById("map"));
-      // 写个随机函数，数据为随机项
       function randomValue() {
         return Math.round(Math.random() * 1000);
       }
@@ -688,7 +688,6 @@ export default {
                 textStyle: { color: "#141d2c" } //省份标签字体颜色
               },
               emphasis: {
-                //对应的鼠标悬浮效果
                 show: true,
                 textStyle: { color: "#53b095" }
               }
@@ -709,7 +708,6 @@ export default {
           }
         ]
       };
-
       myChart.setOption(option);
     }
   }

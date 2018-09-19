@@ -5,10 +5,11 @@ import App from "./App";
 import router from "./router";
 
 import "@/assets/style/reset.css";
-import echarts from 'echarts'
+import echarts from "echarts";
+import "echarts/map/js/china.js";
 
 Vue.config.productionTip = false;
-Vue.prototype.$echarts = echarts
+Vue.prototype.$echarts = echarts;
 
 /* eslint-disable no-new */
 new Vue({
