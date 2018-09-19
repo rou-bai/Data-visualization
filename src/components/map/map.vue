@@ -674,10 +674,10 @@ export default {
       var option = {
         tooltip: {
           formatter: "{b}", //提示标签格式
-          backgroundColor: "#ff7f50", //提示标签背景颜色
+          backgroundColor: "#6f7680", //提示标签背景颜色
           textStyle: { color: "#fff" } //提示标签字体颜色
         },
-        backgroundColor: "#141d2c",
+        // backgroundColor: "#141d2c",
         series: [
           {
             type: "map",
@@ -685,18 +685,18 @@ export default {
             label: {
               normal: {
                 show: true, //显示省份标签
-                textStyle: { color: "#141d2c" } //省份标签字体颜色
+                textStyle: { color: "#6f7680" } //省份标签字体颜色
               },
               emphasis: {
                 show: true,
-                textStyle: { color: "#53b095" }
+                textStyle: { color: "#6f7680" }
               }
             },
             itemStyle: {
               normal: {
                 borderWidth: 0.5, //区域边框宽度
-                borderColor: "#53b095", //区域边框颜色
-                areaColor: "#fff" //区域颜色
+                borderColor: "#2a7b90", //区域边框颜色
+                areaColor: "#141d2c" //区域颜色
               },
               emphasis: {
                 borderWidth: 0.5,
